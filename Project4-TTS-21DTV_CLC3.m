@@ -12,6 +12,7 @@ r=[1 0 1 0 1 1];
 y=r;
 %Số lần lặp
 maxiter=20;
+iter=0;
 %Đánh dấu giải mã chưa thành công
 success = 0;
 while iter<maxiter && ~success % Điều kiện vòng lặp
